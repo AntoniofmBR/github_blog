@@ -157,7 +157,7 @@ Error generating stack: `+o.message+`
   height: 100%;
   gap: 32px;
   width: 800px;
-`,Ew="/github_blog/assets/background_header-DDEgXF4O.svg",Pw=pe.header`
+`,Ew="/assets/background_header-DDEgXF4O.svg",Pw=pe.header`
   display: flex;
   justify-content: center;
   width: 100%;
