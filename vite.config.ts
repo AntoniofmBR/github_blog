@@ -1,6 +1,8 @@
 // vite.config.ts
 import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/github_blog/', // Ajuste isso para corresponder ao seu repositório no GitHub
+  plugins: [react()],
+  base: '/github_blog/',
 });

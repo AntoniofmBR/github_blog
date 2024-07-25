@@ -6,7 +6,7 @@ import { Post } from './pages/post'
 export function Router() {
   return (
     <Routes>
-      <Route path='/'>
+      <Route>
         <Route path="/" element={<Home />} />
         <Route path="/post/:id" element={<Post />} />
       </Route>
